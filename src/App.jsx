@@ -33,7 +33,7 @@ function CardDisplay({birds, isBacks, setIsBacks}){
 }
 
 function Card({bird, revealed, onCardClick}){
-  let src="/"+bird.name+".png";
+  let src="/birdIDFlashcard/"+bird.name+".png";
   let color = allColors[bird.color];
 
   return(
