@@ -42,10 +42,12 @@ img{
 }
 
 .card-display{
-  width: 1000px;
+  width: 80%;
+  text-align: center;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 .card{
